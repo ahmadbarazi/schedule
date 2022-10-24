@@ -159,7 +159,10 @@
                 android:id="@+id/TextInputLayoutStartTime"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                app:endIconDrawable="@drawable/ic_baseline_clear_24"
+                app:endIconMode="custom"
+                app:startIconDrawable="@drawable/ic_baseline_access_time_24">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextStartTime"
@@ -182,7 +185,10 @@
                 android:id="@+id/TextInputLayoutEndTime"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                app:endIconDrawable="@drawable/ic_baseline_clear_24"
+                app:endIconMode="custom"
+                app:startIconDrawable="@drawable/ic_baseline_access_time_24">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextEndTime"
